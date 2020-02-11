@@ -1,4 +1,4 @@
-# Intelipost: Teste prático para Frontend Javascript Developer
+<!-- # Intelipost: Teste prático para Frontend Javascript Developer
 
 Este é o teste usado por nós aqui da [Intelipost](http://www.intelipost.com.br) para avaliar tecnicamente os candidatos a nossas vagas de Frontend. Se você estiver participando de um processo seletivo para nossa equipe, certamente em algum momento receberá este link, mas caso você tenha chego aqui "por acaso", sinta-se convidado a desenvolver nosso teste e enviar uma mensagem para nós no e-mail `techtests@intelipost.com.br`. 
 
@@ -63,4 +63,48 @@ Você pode gerar suas próprias API Keys para consumir as APIs, mas se quiser us
 * Organização, semântica, estrutura, legibilidade, manutenibilidade do seu código
 * Alcance dos objetivos propostos
 * Adaptação mobile (layout responsivo)
-* Componentização e extensibilidade dos componentes Javascript
+* Componentização e extensibilidade dos componentes Javascript -->
+
+### Desafio
+
+* Construir uma aplicação de busca de bandas e artista usando alguma API de música. É uma aplicação simples, onde o usuário poderá buscar por um determinado artista ou banda para ter acesso aos vídeos do Youtube retornados pela busca e também os dados desta banda requisitados através da API.
+
+### Protótipos e layout
+* Baseado nas necessidades do cliente, criamos um layout no qual pode-se visualizar todos os itens necessários e também suas funcionalidade.
+
+![Tela1](src/img/tela1.png)
+![Tela2](src/img/tela2.png)
+
+#### História de Usuário 1:
+
+* Eu como usuário gostaria de pesquisar por um artista ou banda e saber sobre suas informações como: 
+* [ ] Digitar o nome da banda ou artista.
+* [ ] Qual o genero da musica.
+* [ ] Aparecer a imagem.
+
+#### História de Usuário 2: 
+* Eu como usuário gostaria de ver na tela, lista de vídeos relacionados ao artista :
+* [ ] Nome do vídeo.
+* [ ] Descrição do Vídeo.
+* [ ] Ver a Thumbnail (é uma versão em miniatura de imagens usadas na Internet para facilitar as buscas). 
+
+#### História de Usuário 3:
+* Eu como usuário gostaria de reproduzir os vídeos
+* [ ] Reproduzir as musicas em formato modal.
+
+ ### O que nós esperamos do seu teste
+
+* Ver na solução a utilização de um framework da sua escolha, mas por aqui utilizamos o VueJS. Utilize o framework da melhor forma possível (metodologia/estrutura). Escolha a versão do ecmascript que lhe agrade
+* Tambér ver a utilização de dependency managers (npm, webpack)
+* Automação de tasks com gulp, grunt ou outra ferramenta de sua escolha
+* Um HTML escrito da maneira mais semântica possível (HTML5/5.1)
+* CSS3/4 - Com um pre processador de CSS (a escolha fica a seu critério, mas por aqui utilizamos SASS)
+* Mobile first e layout responsivo
+
+## Ferramentas utilizadas:
+- JavaScript (ES6);
+- [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html);
+- [Material](https://www.figma.com);
+- [Aphrodite](https://github.com/Khan/aphrodite);
+- [Firebase](https://firebase.google.com/);
+- [Figma](https://www.figma.com);
